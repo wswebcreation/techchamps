@@ -71,9 +71,9 @@ describe('My First Native App Test', () => {
     //    There are multiple ways to execute Gestures:
     //    - Cross platform:
     //      - https://webdriver.io/docs/api/webdriver#performactions and then also read:
-    //        https://github.com/jlipps/simple-wd-spec#perform-actions     //
+    //        https://github.com/jlipps/simple-wd-spec#perform-actions
     //    - Android Specific:
-    //      - https://github.com/appium/appium-uiautomator2-driver#mobile-gesture-commands
+    //      - https://github.com/appium/appium-uiautomator2-driver/blob/master/docs/android-mobile-gestures.md
     //    - iOS Specific:
     //      - https://appium.github.io/appium-xcuitest-driver/4.19/execute-methods/
     // 2. Add it to the cart
