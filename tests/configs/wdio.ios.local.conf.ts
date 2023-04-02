@@ -14,7 +14,7 @@ config.capabilities = [
     // This is `appium:` for all Appium Capabilities. You can find the iOS capabilities here
     // https://github.com/appium/appium-xcuitest-driver
     'appium:deviceName': 'iPhone 14', // Change this to the name of your iOS device
-    'appium:platformVersion': '16.2', // Change this to the version of your iOS device
+    'appium:platformVersion': '16.4', // Change this to the version of your iOS device
     'appium:orientation': 'PORTRAIT',
     'appium:automationName': 'XCUITest',
     'appium:app': join(__dirname, '../../apps/MyDemoAppRN.zip'),
