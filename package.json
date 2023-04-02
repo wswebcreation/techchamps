@@ -1,0 +1,33 @@
+{
+  "name": "techchamps",
+  "version": "1.0.0",
+  "description": "TechChamps - Mobile",
+  "main": "index.js",
+  "scripts": {
+    "test.android.local": "wdio run ./tests/configs/wdio.android.local.conf.ts",
+    "test.android.saucelabs": "wdio run ./tests/configs/wdio.android.saucelabs.conf.ts",
+    "test.ios.local": "wdio run ./tests/configs/wdio.ios.local.conf.ts",
+    "test.ios.saucelabs": "wdio run ./tests/configs/wdio.ios.saucelabs.conf.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wswebcreation/techchamps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wswebcreation/techchamps/issues"
+  },
+  "homepage": "https://github.com/wswebcreation/techchamps#readme",
+  "devDependencies": {
+    "@wdio/appium-service": "^8.6.9",
+    "@wdio/cli": "^8.6.9",
+    "@wdio/local-runner": "^8.6.9",
+    "@wdio/mocha-framework": "^8.6.8",
+    "@wdio/sauce-service": "^8.6.9",
+    "@wdio/spec-reporter": "^8.6.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3"
+  }
+}
