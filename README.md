@@ -23,3 +23,9 @@ This is a sample project for the TechChamps Mobile training.
    - Sauce Labs:
      - `npm run test.android.saucelabs` for Android
      - `npm run test.ios.saucelabs` for iOS
+
+## Answers
+You can get the answers by executing these commands:
+
+- `git checkout answer-login`
+- `git checkout answer-gestures`
